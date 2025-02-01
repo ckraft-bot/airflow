@@ -12,4 +12,4 @@ nohup airflow scheduler > scheduler.log 2>&1 &
 # Start Airflow Web Server
 nohup airflow webserver --port 8080 > webserver.log 2>&1 &
 
-echo "Airflow services started successfully!"
+echo "Airflow services started successfully! You can access the UI here: http://localhost:8080/"
