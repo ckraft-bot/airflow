@@ -16,7 +16,7 @@
 
 
 ## Step 6: create an admin user on airflow
-```airflow users create --username admin --firstname Claire --lastname Kraft --role Admin --email c.kraft.9306@gmail.com```
+```airflow users create --username admin --firstname Claire --lastname Kraft --role Admin --email email_user@example.com```
 
 ## Step 7: Start airflow services - webserver and scheduler
 ```airflow webserver --port 8080 & airflow scheduler &```
